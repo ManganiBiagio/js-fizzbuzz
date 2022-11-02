@@ -1,0 +1,29 @@
+.box-quadrati{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.my-square{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(90% / 7);
+    aspect-ratio: 1 / 1;
+    
+}
+
+.blu{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.yellow{
+    background-color: lightyellow;
+}
+.red{
+    background-color: lightcoral;
+}
